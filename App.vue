@@ -168,11 +168,10 @@ export default {
 							conv.getElementsByTagName("p")[0].innerHTML = conv.getElementsByTagName("p")[0].innerHTML.replace(e.word, "<span class='highlight'>" + e.word + "</span>");
 						} else {
 							console.log("Unclicked");
-							conv.getElementsByTagName("p")[0].innerHTML = conv.getElementsByTagName("p")[0].innerHTML.replace(/<\/?span[^>]*>/g, "");
+							//test
 						}
 					}
 				}
-
 				e.isClicked = !e.isClicked;
 			}
 		},
